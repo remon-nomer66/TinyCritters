@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		DE4373392C11FA310094270D /* SwiftUI_MenuBar_GeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4373382C11FA310094270D /* SwiftUI_MenuBar_GeminiApp.swift */; };
-		DE43733B2C11FA310094270D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43733A2C11FA310094270D /* ContentView.swift */; };
 		DE43733D2C11FA330094270D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE43733C2C11FA330094270D /* Assets.xcassets */; };
 		DE4373402C11FA330094270D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE43733F2C11FA330094270D /* Preview Assets.xcassets */; };
 		DE43734B2C11FA350094270D /* SwiftUI_MenuBar_GeminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43734A2C11FA350094270D /* SwiftUI_MenuBar_GeminiTests.swift */; };
 		DE4373552C11FA350094270D /* SwiftUI_MenuBar_GeminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4373542C11FA350094270D /* SwiftUI_MenuBar_GeminiUITests.swift */; };
 		DE4373572C11FA350094270D /* SwiftUI_MenuBar_GeminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4373562C11FA350094270D /* SwiftUI_MenuBar_GeminiUITestsLaunchTests.swift */; };
 		DE4373642C11FEF70094270D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4373632C11FEF70094270D /* AppDelegate.swift */; };
+		DE8A8BB22C171ACF003D617D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BB12C171ACF003D617D /* MainView.swift */; };
+		DE8A8BB42C171AEB003D617D /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BB32C171AEB003D617D /* ProgressBar.swift */; };
+		DE8A8BB62C171B29003D617D /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BB52C171B29003D617D /* ProgressBarView.swift */; };
+		DE8A8BB82C171B3C003D617D /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BB72C171B3C003D617D /* ActionButtons.swift */; };
+		DE8A8BBA2C171B52003D617D /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BB92C171B52003D617D /* CharacterView.swift */; };
+		DE8A8BBC2C171BA7003D617D /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8A8BBB2C171BA7003D617D /* CharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		DE4373352C11FA310094270D /* SwiftUI-MenuBar-Gemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MenuBar-Gemini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4373382C11FA310094270D /* SwiftUI_MenuBar_GeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MenuBar_GeminiApp.swift; sourceTree = "<group>"; };
-		DE43733A2C11FA310094270D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE43733C2C11FA330094270D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE43733F2C11FA330094270D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE4373412C11FA330094270D /* SwiftUI_MenuBar_Gemini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_MenuBar_Gemini.entitlements; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		DE4373542C11FA350094270D /* SwiftUI_MenuBar_GeminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MenuBar_GeminiUITests.swift; sourceTree = "<group>"; };
 		DE4373562C11FA350094270D /* SwiftUI_MenuBar_GeminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MenuBar_GeminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DE4373632C11FEF70094270D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8A8BB12C171ACF003D617D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE8A8BB32C171AEB003D617D /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		DE8A8BB52C171B29003D617D /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		DE8A8BB72C171B3C003D617D /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
+		DE8A8BB92C171B52003D617D /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		DE8A8BBB2C171BA7003D617D /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				DE4373382C11FA310094270D /* SwiftUI_MenuBar_GeminiApp.swift */,
-				DE43733A2C11FA310094270D /* ContentView.swift */,
+				DE8A8BB12C171ACF003D617D /* MainView.swift */,
+				DE8A8BB32C171AEB003D617D /* ProgressBar.swift */,
+				DE8A8BB52C171B29003D617D /* ProgressBarView.swift */,
+				DE8A8BB92C171B52003D617D /* CharacterView.swift */,
+				DE8A8BBB2C171BA7003D617D /* CharacterViewModel.swift */,
+				DE8A8BB72C171B3C003D617D /* ActionButtons.swift */,
 				DE43733C2C11FA330094270D /* Assets.xcassets */,
 				DE4373632C11FEF70094270D /* AppDelegate.swift */,
 				DE4373412C11FA330094270D /* SwiftUI_MenuBar_Gemini.entitlements */,
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE8A8BB82C171B3C003D617D /* ActionButtons.swift in Sources */,
 				DE4373642C11FEF70094270D /* AppDelegate.swift in Sources */,
-				DE43733B2C11FA310094270D /* ContentView.swift in Sources */,
+				DE8A8BB62C171B29003D617D /* ProgressBarView.swift in Sources */,
+				DE8A8BB22C171ACF003D617D /* MainView.swift in Sources */,
+				DE8A8BBC2C171BA7003D617D /* CharacterViewModel.swift in Sources */,
+				DE8A8BB42C171AEB003D617D /* ProgressBar.swift in Sources */,
+				DE8A8BBA2C171B52003D617D /* CharacterView.swift in Sources */,
 				DE4373392C11FA310094270D /* SwiftUI_MenuBar_GeminiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
